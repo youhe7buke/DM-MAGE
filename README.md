@@ -18,12 +18,25 @@ To reproduce the work presented in the associated paper/thesis, please follow th
 
     *(Optional: You can specify here which configuration files or scripts require path modification)*
 
-3.  **Install Dependencies:**
-    *(You can add instructions here for installing necessary Python packages or other dependencies, e.g., `pip install -r requirements.txt`)*
-
-4.  **Run the Code:**
-    *(You can add instructions here on how to execute the main scripts)*
-
+3. **Run the Code:**
+    Execute the main scripts in the following order from the project's root directory. Each step will save the best performing model checkpoint:
+    1.  Run the AE (Autoencoder) main script:
+        ```bash
+        python scDMMGAE-main/ae/main.py
+        ```
+    2.  Run the GAE (Graph Autoencoder) main script:
+        ```bash
+        python scDMMGAE-main/gae/main.py
+        ```
+    3.  Run the pretraining main script:
+        ```bash
+        python scDMMGAE-main/pretrain/main.py
+        ```
+    4.  Run the final training main script:
+        ```bash
+        python scDMMGAE-main/train/main.py
+        ```
+    *(Adjust script paths/names if they differ from the example)*
 ## Contact
 
 *2022103618@ruc.edu.cn*
