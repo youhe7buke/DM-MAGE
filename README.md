@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project represents Chi's master's thesis work.
+This project represents Chi's master's thesis work, supervised by Haoj.
 
 **Please note:** Due to their large size, the model checkpoint files are not included in this repository.
 
@@ -26,4 +26,4 @@ To reproduce the work presented in the associated paper/thesis, please follow th
 
 ## Contact
 
-*(Optional: You can add your contact information here, such as an email address)*
+*2022103618@ruc.edu.cn*
